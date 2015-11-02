@@ -14,7 +14,9 @@
 		@include vendor('display', 'flex');
 		position: relative;
 
-		input[type="text"],
+		input[type="text"] {
+			width: 18em;
+		},
 		input[type="password"],
 		input[type="email"] {
 			width: 18em;
